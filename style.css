@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+a{
+    color: white;
+}
+
+.modal-footer{
+    display: block;
+    text-align: right;
+}
+
+.box{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.innerbox{
+    border: rgb(229,229,229) 2px solid;
+    padding: 0;
+    height: 100%;
+}
+
+.information{
+    padding: 15px;
+}
+  
+.satisfy{
+    font-family: 'Satisfy', cursive;
+}
+
+.vertical-center {
+    margin: 0;
+    position: relative;
+    transform: translateY(25%);
+}
+
+.gray-btn{
+    background-color: gray;
+    color: white;
+}
+
+.cancel{
+    background-color: tomato;
+}
+
+.confirm{
+    background-color: palegoldenrod;
+}
+
+#btnCarro{
+    position: absolute;
+    z-index: 2;
+    right: 14%;
+    width: 4%;
+}
